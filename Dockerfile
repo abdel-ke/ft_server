@@ -32,4 +32,3 @@ RUN cp /content/ssl-params.conf /etc/nginx/snippets/
 RUN cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
 EXPOSE 80 443
 CMD bash /content/start.sh
-
